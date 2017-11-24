@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Root</servlet-name>
+		<servlet-class>pc.RootServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Root</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Directory</servlet-name>
+		<servlet-class>pc.Directories</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Directory</servlet-name>
+		<url-pattern>/directory</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Files</servlet-name>
+		<servlet-class>pc.Files</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Files</servlet-name>
+		<url-pattern>/files</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>pc.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+</web-app>
