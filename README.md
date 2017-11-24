@@ -13,6 +13,6 @@ Few points to use these applications:
 #### 3. Dropbox: a fully working cloud application that replicates a real service.
 #### 4. TodoList: a fully working cloud application that replicates a real service.
 
-Front-End - HTML5 and JSP
-Back-End - Servlets
-Database - Google Datastore
+##### Front-End - HTML5 and JSP
+##### Back-End - Servlets
+##### Database - Google Datastore
